@@ -1,0 +1,1 @@
+create table dept(id int(2),name varchar(200));
