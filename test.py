@@ -9,7 +9,7 @@ c= conn.cursor()
 #		LAST_NAME TEXT,
 #		PAY INTEGER
 #	)""")
-c.execute("Insert into EMP values ('abc', 'last', 123)"
+c.execute("Insert into EMP values ('abc', 'last', 123)")
 c.execute("Insert into EMP values ('abcd', 'last2', 1234)")
 c.execute("Select * from EMP")
 print(c.fetchall())
