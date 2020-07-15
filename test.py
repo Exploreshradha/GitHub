@@ -1,7 +1,7 @@
 import sqlite3
 
-#conn = sqlite3.connect('employee.db')
-conn = sqlite3.connect(':memory:')
+conn = sqlite3.connect('TEST.db')
+#conn = sqlite3.connect(':memory:')
 
 c= conn.cursor()
 c.execute(""" CREATE TABLE EMP(
