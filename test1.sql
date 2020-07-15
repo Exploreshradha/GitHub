@@ -1,0 +1,1 @@
+create tabele test1(sno int(3), name varchar(200))
